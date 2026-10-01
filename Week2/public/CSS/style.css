@@ -1,0 +1,35 @@
+h1 {
+    color: #dd0f0f; 
+    margin-left: 20px;
+}
+
+p { 
+    font-size: 25px; 
+}
+
+div.container {
+    width: auto;
+    margin-top: 20px;
+}
+
+.buttons {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(135, 189, 78);
+    background-color: #1e580f;
+    border: none;            
+    border-radius: 15px;
+    box-shadow: 0 5px #84cf73;
+}
+button:hover {background-color: rgb(62, 123, 84)}
+
+button:active {
+    background-color: rgb(28, 68, 35);
+    box-shadow: 0 5px #5c7f55;
+    transform: translateY(4px);
+}
