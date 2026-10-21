@@ -1,0 +1,9 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/marcosgomesneto/bun-devcontainers/tree/main/src/basic-bun
+{
+    "name": "Bun Development",
+    "image": "oven/bun:latest",
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {}
+    }
+}
