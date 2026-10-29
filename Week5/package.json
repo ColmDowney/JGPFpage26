@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "workspaces": [
-    "projects/*"
+    "Projects/*"
   ],
   "scripts": {
     "serve": "bun --hot ./server.ts"
