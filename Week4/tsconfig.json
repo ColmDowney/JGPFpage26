@@ -1,11 +1,9 @@
 {
   "compilerOptions": {
-    // Target and module settings optimized for Bun
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "bundler",
-    
-    // Enable strict type checking
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -14,38 +12,25 @@
     "strictPropertyInitialization": true,
     "noImplicitThis": true,
     "alwaysStrict": true,
-    
-    // Additional checks for code quality
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true,
-    
-    // Enable decorators
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    
-    // JSX support
     "jsx": "react-jsx",
     "jsxImportSource": "react",
-    
-    // Path aliases
-    "baseUrl": ".",
     "ignoreDeprecations": "6.0",
     "paths": {
-      "@/*": ["src/*"],
-      "@utils/*": ["src/utils/*"],
-      "@types/*": ["src/types/*"]
+      "@/*": ["./*"],
+      "@utils/*": ["./utils/*"],
+      "@types/*": ["./utils/*"]
     },
-    
-    // Output settings (for type checking only)
     "noEmit": true,
     "skipLibCheck": true,
-    
-    // Bun-specific types
     "types": ["bun"]
   },
-  "include": ["src/**/*"],
+  "include": ["**/*"],
   "exclude": ["node_modules", "dist"]
 }

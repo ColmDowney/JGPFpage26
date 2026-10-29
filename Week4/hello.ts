@@ -1,19 +1,18 @@
-interface user
-{
-    name: string;
-    email: string;
-    age: number;
+// hello.ts
+interface User {
+  name: string;
+  email: string;
+  age: number;
 }
 
-function greetUser(user: user): string 
-{
-    return `Hello, ${user.name}! you are ${user.age} years old.`;
+function greetUser(user: User): string {
+  return `Hello, ${user.name}! You are ${user.age} years old.`;
 }
 
-const user1: user = {
-    name: "Alice",
-    email: "alice@gmail.,com",
-    age: 30
+const user: User = {
+  name: "Alice",
+  email: "alice@example.com",
+  age: 30
 };
 
-console.log(greetUser(user1));
+console.log(greetUser(user));

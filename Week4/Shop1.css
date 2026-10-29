@@ -3,39 +3,37 @@ html {
 }
 
 table {
-  
   table-layout: fixed;
   width: 50%;
   margin: 10px auto;
   border-collapse: collapse;
-  border-top: 1px solid #225db6;
-  border-bottom: 1px solid #225db6;
+  border-top: 1px solid #ff00ee;
+  border-bottom: 1px solid #ff00ee;
 }
-
 
 th,
 td {
   padding: 0.6em;
 }
 
-tr :nth-child(2),
-tr :nth-child(3) {
-  text-align: right;
+tr :nth-child(1){
+  text-align: left;
   width: 50%;
 }
 
-tr :nth-child(1),
-tr :nth-child(4) {
-  text-align: left;
-  width: 35%;
-}
-tfoot tr:nth-child(1)
-tfoot tr :nth-child(2) {
+tr :nth-child(2),
+tr :nth-child(3) {
   text-align: right;
+  width: 25%;
 }
 
-tfoot tr :nth-child(3) {
+tfoot tr :nth-child(1) {
   text-align: left;
+}
+
+tfoot tr :nth-child(2),
+tfoot tr :nth-child(3) {
+  text-align: right;
 }
 
 th,
@@ -45,9 +43,9 @@ td {
 }
 
 tfoot {
-  border-top: 1px solid #225db6;
+  border-top: 1px solid #ff00ee;
 }
 
 tbody tr:nth-child(odd) {
-  background-color: #90a1da;
+  background-color: #ffc5fb;
 }

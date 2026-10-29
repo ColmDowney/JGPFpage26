@@ -1,81 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>TypeScript Addition Example</title>
+    <meta charset="UTF-8">
+    <title>Shop1</title>
     <script type="module" src="./shop1.ts"></script>
     <link rel="stylesheet" href="./shop1.css">
 </head>
 
 <body>
 
-    <h1>buy 3 items</h1>
+    <h1>Buy Three Items</h1>
 
-
-
-<table> 
+    <table>
+        <thead>
+            <tr>
+            <thead scope="row">Shopping Cart
+<table>
     <thead>
         <tr>
-            <th scope="row">Shopping cart</th>
-        </tr>
-
-        <tr>
-            
+            <th>Item</th>
+            <th name="unit-price">Unit Price</th>
+            <th name="quantity">Quantity</th>
         </tr>
     </thead>
-   <tbody>
+    <tbody>
         <tr>
-            <td>apple</td>
-            <td name="Unit Price">00.33</td>
-            <td name="Quantity"> 6</td>
+            <td>Apple</td>
+            <td>£0.33</td>
+            <td>6</td>
         </tr>
-         <tr>
-            <td>grapes</td>
-            <td name="Unit Price">3.00</td>
-            <td name="Quantity">1</td>
+        <tr>
+            <td>Grapes</td>
+            <td>£3.00</td>
+            <td>1</td>
         </tr>
-         <tr>
+        <tr>
             <td>Oranges</td>
-            <td name="Unit Price">00.40</td>
-            <td name="Quantity">12</td>
+            <td>£0.25</td>
+            <td>12</td>
         </tr>
-</tbody>
-        <tfoot>
-            <tr>
-                <th> <button id="Calculate-total()">Calculate total</button></th>
-                <th>total</th>
-                 <th id = "payment"> >--< </th>
-            </tr>
-            <tr>
-                <th> <button id="Calculate-discount()">Calculate total with Discount</button></th>
-                <th>total with discount</th>
-                 <th id = "discounted"> >--< </th>
-            </tr>
-        </tfoot>
-    
+     </tbody>
+    <tfoot>
+        <tr>
+            <td><button id="calculate-total">Sum</button></td>
+            <td>Total</td>
+            <td id="payment">--</td> 
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>Total with 25% Discount</td>
+            <td id="discount">--</td>
+        </tr>
+    </tfoot>
 </table>
-
-
-
-
-
-    <form>
-        <label for="number1">First number:</label>
-        <input type="number" id="number1">
-
-        <br><br>
-
-        <label for="number2">Second number:</label>
-        <input type="number" id="number2">
-
-        <br><br>
-
-        <button type="button"  id="add-button">Add</button>
-
-        <br><br>
-
-        <label for="result">Result:</label>
-        <input type="number" id="result" readonly>
-    </form>
-
 </body>
 </html>
