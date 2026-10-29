@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "workspaces": [
+<<<<<<< Updated upstream
     "Projects/*"
+=======
+    "projects/*"
+>>>>>>> Stashed changes
   ],
   "scripts": {
     "serve": "bun --hot ./server.ts"

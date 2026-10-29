@@ -1,4 +1,8 @@
 {
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
   "compilerOptions": {
     // Environment setup & latest features
     "lib": ["ESNext", "DOM"],
@@ -30,6 +34,10 @@
   "include": [
   "**/*.ts",
   "**/*.tsx",
+<<<<<<< Updated upstream
   "declarations.d.ts"
+=======
+  "declarations.d.ts" 
+>>>>>>> Stashed changes
   ]
 }

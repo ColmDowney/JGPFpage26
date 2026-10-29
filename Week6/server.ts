@@ -22,7 +22,11 @@ Bun.serve({
     let path = url.pathname;
 
     if (path === "/") {
+<<<<<<< Updated upstream
         path = "Week5/Projects/testcard1/index.html";
+=======
+        path = "/Projects/testcard1/index.html";
+>>>>>>> Stashed changes
     } else if (path.endsWith("/")) {
         // Serve index.html for directory requests
         path = path + "index.html";

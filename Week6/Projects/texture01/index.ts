@@ -1,5 +1,9 @@
 import { Engine } from "@babylonjs/core";
+<<<<<<< Updated upstream
 import { createStartScene } from '/createStartScene.ts';
+=======
+import { createStartScene } from './createStartScene';
+>>>>>>> Stashed changes
 //import { ShowInspector } from "@babylonjs/inspector";
 import './main.css';
 
